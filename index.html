@@ -11,33 +11,63 @@
   <header>
     <div class="container">
       <div class="header-left">
-        <img class="logo" src="logo.png">
+        <a href="#top"><img class="logo" src="logo.png"></a>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
+      <div class="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <div class="menu-content">
+            <ul>
+                <li>
+                  <a href="#about">
+                    ABOUT
+                  </a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiBDtrZcQPwToW6cj7h3srjMn7xYkT14jnO1M8w6fMtyVLQ/viewform?usp=sf_link">参加登録</a>
+                </li>
+            </ul>
+        </div>
+      </div>
       <div class="header-right">
-        <a href="#">ABOUT</a>
-        <a href="#">参加登録</a>
+        <a href="#about">ABOUT</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiBDtrZcQPwToW6cj7h3srjMn7xYkT14jnO1M8w6fMtyVLQ/viewform?usp=sf_link">参加登録</a>
       </div>
     </div>
   </header>
-  <div class="top-wrapper">
+  <div class="top-wrapper" id="top">
+    <div class="initial">
+      <div class="container">
+        <h1>Ensemble Public House</h1>
+        <div class="title">
+          <p>すべてのCantorへ。<br>Ensemble Public Houseは音楽を愛する人たちのたまり場。<br>演奏と酒を楽しむための空間です。</p>
+        </div>
+        <div class="btn-wrapper">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiBDtrZcQPwToW6cj7h3srjMn7xYkT14jnO1M8w6fMtyVLQ/viewform?usp=sf_link" class="btn signup">参加登録はこちら</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-wrapper" id="about">
     <div class="container">
-      <h1>Ensemble Public House</h1>
-      <div class="title">
-        <p>すべてのCantorへ。<br>Ensemble Public Houseは音楽を愛する人たちのたまり場。<br>演奏と酒を楽しむための空間です。</p>
+      <div class="heading">
+        <h2>About Ensemble Public House</h2>
       </div>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">参加登録はこちら</a>
-        <!-- <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a> -->
+      <div class="textarea">
+        <p>Ensemble Public House（EPH・エフ）は音楽を演奏することが大好きなCantorたちのたまり場です。
+          <br>たまり場といっても、EPHの語源となったパブやレストランを経営できる程の財力は待ち合わせていません。。
+          <br>EPHは運営側が手によりをかけて選定したスペースをお借りし、仲間と・初めて会う人と演奏を楽しむ。そして、美味しいお酒を楽しむイベントです。
+          <br>初見演奏・初心者大歓迎。イベント当日のための練習は一切強制しません。（もちろんしたい方はぜひ）
+          <br>なので演奏したいけど、オーケストラの練習には参加できない（めんどくさい）人。演奏活動を続けたいけど時間がない人。
+          <br>演奏したい曲があるけど仲間がいない人。新しい演奏仲間がほしい人。堅苦しい演奏は嫌な人。そんなわがままCantorたちにピッタリの場にできればと考えています。
       </div>
+      <div class="clear"></div>
     </div>
   </div>
   <div class="lesson-wrapper">
     <div class="container">
-      <div class="heading">
-        <h2>WHAT is Ensemble Public House.</h2>
+      <div class="heading2">
+        <h2>Spirit of Ensemble Public House.</h2>
       </div>
       <div class="lessons">
         <div class="lesson">
@@ -65,13 +95,33 @@
       <div class="clear"></div>
     </div>
   </div>
-  <div class="message-wrapper">
+  <div class="schedule-wrapper">
     <div class="container">
       <div class="heading">
-        <h2>さぁ、あなたもEnsembleで音楽を楽しみ、音楽を楽しむ人とつながりませんか？</h2>
-        <h3>Let's enjoy music and connect with others who enjoy music with Ensemble.</h3>
+        <h2>第一回</h2>
+        <h3>2022年12月 都内近郊で開催予定</h3>
+        <p>参加希望者の予定により、日程は変更します。
+        <br>
+        <br>
+        <h2>イベント内容</h2>
+        <h3>事前募集・飛び入り参加によるアンサンブル演奏会　レセプション
       </div>
-      <span class="btn message">参加登録する</span>
+    </div>
+  </div>
+  <div class="message-wrapper">
+    <div class="container">
+      <!-- <div class="heading">
+        <h2></h2>
+        <h3>Let's enjoy music and connect with others who enjoy music with Ensemble.</h3>
+      </div> -->
+      <div class = "buttons">
+        <a href="mailto:ensemblepublichouse@gmail.com" class="btn message">
+          運営担当者募集中
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiBDtrZcQPwToW6cj7h3srjMn7xYkT14jnO1M8w6fMtyVLQ/viewform?usp=sf_link" class="btn message">
+          参加登録する
+        </a>
+      </div>
     </div>
   </div>
   <footer>
