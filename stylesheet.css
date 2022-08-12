@@ -11,17 +11,6 @@ a {
   text-decoration: none;
 }
 
-/* .container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-  font-family: Yu Mincho;
-} */
-
-/* .initial {
-
-} */
-
 .container {
   width: 100%;
   padding: 0 15px;
@@ -112,6 +101,12 @@ header {
   margin-bottom: 5px;
 }
 
+.logo2 {
+  height: 215px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .header-left {
   float: left;
 }
@@ -133,15 +128,6 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
-  height: 680px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
 .heading {
   padding-top: 15vh;
   padding-bottom: calc(7vh - 10%);
@@ -158,51 +144,14 @@ header {
   font-weight: normal;
 }
 
-.textarea {
-  font-size: 90%;
-  padding-left: 1vh;
-  padding-right: 1vh;
-}
 
 .heading h2 {
   font-weight: normal;
 }
 
-.lesson {
-  float: left;
-  width: 33%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 33%;
-  width: 100%;
-  color: white;
-  font-size: 20px;
-  font-weight: bold; 
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 14px;
-  color: #848285;
-}
 
 .heading h3 {
   font-weight: normal;
-}
-
-.message-wrapper {
-  height: 600px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
 }
 
 .message {
@@ -243,11 +192,7 @@ footer {
   clear: left;
 }
 
-.buttons{
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-}
-
+/* ********************************************************************* */
 .menu-btn {
   position: fixed;
   top: 30px;
@@ -341,6 +286,472 @@ footer {
   left: 0;/*メニューを画面内へ*/
 }
 
+/* ******************************************************* */
+.block-2{
+  height: 420px;
+  padding: 4% 5%;
+  margin: 0 auto;
+  font-family: Yu Mincho;
+  text-align: center;
+}
+
+.textarea {
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+
+@media all and (min-width: 1256px){
+  .br-bl2-9 {display: none;}
+}
+
+@media all and (min-width: 1138px){
+  .br-bl2-8 {display: none;}
+}
+
+
+@media all and (max-width: 1000px) {
+  .block-2{
+    height: 395px;
+    padding: 7% 5% 5% 5%;
+    font-size: 83%;
+  }
+  .hako-2 h2{
+    margin: 0;
+  }
+  .textarea {
+    padding-left: 0;
+    padding-right:0;
+  }
+  .br-bl2-8 {display: none;}
+  .br-bl2-9 {display: block}
+}
+
+
+@media all and (max-width: 904px) {
+  .br-bl2-8 {display: block;}
+  /* .br-bl2-9 {display: none;} */
+}
+
+
+@media all and (max-width: 850px) {
+  .block-2{
+    height: 395px;
+    padding: 7% 5% 5% 5%;
+    font-size: 83%;
+  }
+  .hako-2 h2{
+    margin: 0;
+  }
+  .textarea {
+    padding-left: 0;
+    padding-right:0;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .block-2{
+    height: 395px;
+    padding: 7% 5% 5% 5%;
+    font-size: 83%;
+  }
+  .hako-2 h2{
+    margin: 0;
+  }
+  .textarea {
+    padding-left: 0;
+    padding-right:0;
+  }
+}
+
+@media all and (max-width: 694px) {
+  .block-2{
+    height: 395px;
+    padding: 7% 5% 5% 5%;
+    font-size: 83%;
+  }
+  .hako-2 h2{
+    margin: 0;
+  }
+  .textarea {
+    padding-left: 0;
+    padding-right:0;
+  }
+}
+@media all and (min-width: 694px){
+  .br-bl2-7 {display: none; }
+}
+
+
+@media all and (max-width: 665px) {
+  .block-2{
+    height: 395px;
+  }
+  .br-bl2-7 {display: none; }
+  .br-bl2-8 {display: none;}
+}
+@media all and (min-width: 666px){
+  .br-bl2-6 {display: none; }
+}
+
+
+@media all and (max-width: 630px) {
+  .block-2{
+    height: 395px;
+  }
+  .br-bl2-6 {display: none; }
+  .br-bl2-9 {display: block; }
+  .br-bl2-8 {display: block; }
+}
+@media all and (min-width: 631px){
+  .br-bl2-5 {display: none; }
+}
+
+@media all and (min-width: 627px){
+  .br-bl2-10 {display: none; }
+}
+
+
+@media all and (max-width: 572px) {
+  .block-2{
+    height: 440px;
+    padding: 7% 5% 5% 5%;
+    font-size: 80%;
+  }
+  .br-bl2-5 {display: none; }
+  .br-bl2-6 {display: none; }
+}
+@media all and (min-width: 573px){
+  .br-bl2-4 {display: none; }
+}
+
+@media all and (max-width: 505px) {
+  .block-2{
+    height: 460px;
+    padding: 9% 5% 5% 5%;
+    margin: 0 auto;
+    font-family: Yu Mincho;
+    font-size: 80%;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 498px){
+  .br-bl2-11 {display: none; }
+}
+
+@media all and (min-width: 453px){
+  .br-bl2-12 {display: none; }
+}
+
+@media all and (max-width: 415px) {
+  .block-2{
+    height: 500px;
+    padding: 7% 5% 5% 5%;
+    margin: 0 auto;
+    font-family: Yu Mincho;
+    font-size: 80%;
+    text-align: center;
+  }
+  .textarea{
+    padding-top: 5%;
+  }
+  .br-bl2-4 {display: none; }
+  .br-bl2-8{display: none;}
+  .br-bl2-9{display: none;}
+  .br-bl2-10{display: none;}
+}
+@media all and (min-width: 416px){
+  .br-bl2-3 {display: none; }
+}
+
+@media all and (max-width: 391px) {
+  .block-2{
+    height: 510px;
+    padding: 7vh 5% 5% 5%;
+    margin: 0 auto;
+    font-family: Yu Mincho;
+    font-size: 80%;
+    text-align: center;
+  }
+}
+
+
+@media all and (max-width: 375px) {
+  .block-2{
+    height: 550px;
+    padding: 7vh 5% 5% 5%;
+    margin: 0 auto;
+    font-family: Yu Mincho;
+    text-align: center;
+  }
+  .br-bl2-3 {display: none; }
+  .br-bl2-11{display: none;}
+}
+@media all and (min-width: 376px){
+  .br-bl2-2 {display: none; }
+}
+
+@media all and (max-width: 330px) {
+  .block-2{
+    height: 630px;
+    padding: 7vh 5% 5% 5%;
+    margin: 0 auto;
+    font-family: Yu Mincho;
+    text-align: center;
+  }
+  .br-bl2-2 {display: none; }
+  .br-bl2-12{display: none;}
+}
+@media all and (min-width: 330px){
+  .br-bl2 {display: none; }
+}
+
+/***********************************************************************************/
+
+.block-3{
+  height: 570px;
+  padding: 4% 5%;
+  margin: 0 auto;
+  font-family: Yu Mincho;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  color: black;
+  font-size: 21px;
+  font-weight: bold; 
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #848285;
+}
+
+@media all and (min-width: 1489px){
+  .br-bl3-1 {display: none; }
+}
+
+@media all and (max-width: 1000px){
+  .block-3{
+    height: 1185px;
+  }
+
+  .lesson {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .br-bl3-1 {display: none; }
+}
+@media all and (min-width: 1001px){
+  .br-bl3-2 {display: none; }
+}
+
+@media all and (min-width: 757px){
+  .br-bl3-3 {display: none; }
+}
+
+@media all and (min-width: 608px){
+  .br-bl3-4 {display: none; }
+}
+
+@media all and (min-width: 506px){
+  .br-bl3-5 {display: none; }
+}
+
+@media all and (max-width: 487px){
+  .block-3{
+    height: calc(1220px + 10%);
+  }
+  .br-bl3-1 {display: block; }
+}
+
+@media all and (min-width: 427px){
+  .br-bl3-6 {display: none; }
+}
+
+@media all and (min-width: 389px){
+  .br-bl3-7 {display: none; }
+}
+
+@media all and (min-width: 349px){
+  .br-bl3-8 {display: none; }
+}
+
+@media all and (max-width: 330px){
+  .text-contents {
+    font-size: 0.7rem;
+  }
+}
+
+/* *********************************************************************************** */
+
+.block-5{
+  height: 50vh;
+  padding: 5% 5%;
+  margin: 0 auto;
+  font-family: Yu Mincho;
+  color: #848285;
+  text-align: center;
+}
+.hako-8{
+
+}
+.hako-8 h2{
+  font-weight: normal;
+  padding-bottom: 6vh;
+}
+
+:root {
+  --circle-size: clamp(1.5rem,5vw,3rem);
+  --spacing: clamp(0.25rem,2vw,0.5rem);
+}
+.c-stepper {
+  display: flex;
+      padding: 0;
+}
+.c-stepper__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+.c-stepper__item:before {
+  --size: 3rem;
+  content: "";
+  display: block;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: 50%;
+  background-color: lightgrey;
+  background-color: red;
+  opacity: 0.5;
+  margin: 0 auto 1rem;
+}
+.c-stepper__item:not(:last-child):after {
+  content: "";
+  position: relative;
+  top: calc(var(--circle-size) / 2);
+  width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+  left: 60%;
+  height: 2px;
+  background-color: #e0e0e0;
+  order: -1;
+}
+.c-stepper__title {
+  font-weight: bold;
+  font-size: clamp(1rem,4vw,1.25rem);
+  margin-bottom: 0.5rem;
+}
+.c-stepper__desc {
+  color: grey;
+  font-size: clamp(0.85rem,2vw,1rem);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+  position   : relative;
+}@media (max-width: 700px) {
+  .c-stepper__desc{
+    font-size: 55%;
+    padding-top: 2vh;
+  }
+}
+
+.c-stepper__desc:hover .balloon {
+  display: inline;                /* インライン要素として表示 */
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 2rem auto 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/***********************************************************************************/
+.block-6{
+  height: 57vh;
+  padding: 3% 5%;
+  background-color: rgb(247, 247, 247);
+  font-family: Yu Mincho;
+  color: #848285;
+  text-align: center;
+}
+
+.hako-9{
+
+}
+
+.schedule{
+
+}
+
+.event-content{
+  padding-top: 2vh;
+}
+
+.buttons{
+  padding:5vh 0vh;
+}
+
+@media all and (max-width: 482px) {
+  .block-6{
+    font-size: 66%;
+  }
+  .hako-9{
+    padding:4vh 0;
+    text-align: center;
+  }  
+  .buttons{
+    padding-top:5vh;
+  }
+}
+
+@media all and (max-width: 430px) {
+  .block-6{
+    font-size: 66%;
+  }
+  .hako-9{
+    padding:4vh 0;
+    text-align: center;
+  }  
+  .buttons{
+    padding-top:5vh;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .block-6{
+    font-size: 66%;
+  }
+  .hako-9{
+    padding:4vh 0;
+    text-align: center;
+  }  
+  .buttons{
+    padding-top:5vh;
+  }
+}
+
+/* ********************************************************************** */
+
 @media all and (max-width: 1820px) {
   .initial{
     margin-top: calc(10vh + 5%);
@@ -386,15 +797,6 @@ footer {
 @media all and (max-width: 1000px) {
   .initial{
     margin-top: calc(10vh + 15%);
-  }
-
-  .lesson {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 1300px;
   }
 
   footer {
@@ -467,10 +869,6 @@ footer {
     margin-top: calc(10vh + 26%);
   }
 
-  .lesson {
-    width: 100%;
-  }
-
   .message-wrapper .btn {
     width: 100%;
   }
@@ -533,8 +931,8 @@ footer {
     margin-top: 5vh;
   }
 
-  .textarea{
+  /* .textarea{
     font-size: 0.8rem;
     padding-top: 5vh;
-  }
+  } */
 }
