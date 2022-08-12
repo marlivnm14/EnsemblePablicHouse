@@ -302,43 +302,17 @@ footer {
 
 
 @media all and (min-width: 1256px){
-  .br-bl2-9 {display: none;}
+  .br-bl2-1 {display: none; }
 }
 
-@media all and (min-width: 1138px){
-  .br-bl2-8 {display: none;}
+@media all and (min-width: 1133px){
+  .br-bl2-2 {display: none; }
 }
-
 
 @media all and (max-width: 1000px) {
   .block-2{
     height: 395px;
     padding: 7% 5% 5% 5%;
-    font-size: 83%;
-  }
-  .hako-2 h2{
-    margin: 0;
-  }
-  .textarea {
-    padding-left: 0;
-    padding-right:0;
-  }
-  .br-bl2-8 {display: none;}
-  .br-bl2-9 {display: block}
-}
-
-
-@media all and (max-width: 904px) {
-  .br-bl2-8 {display: block;}
-  /* .br-bl2-9 {display: none;} */
-}
-
-
-@media all and (max-width: 850px) {
-  .block-2{
-    height: 395px;
-    padding: 7% 5% 5% 5%;
-    font-size: 83%;
   }
   .hako-2 h2{
     margin: 0;
@@ -349,164 +323,68 @@ footer {
   }
 }
 
-@media all and (max-width: 770px) {
+@media all and (min-width: 836px) {
+  .br-bl2-3 {display: none; }
+}
+
+@media all and (max-width: 810px) {
   .block-2{
-    height: 395px;
-    padding: 7% 5% 5% 5%;
-    font-size: 83%;
-  }
-  .hako-2 h2{
-    margin: 0;
-  }
-  .textarea {
-    padding-left: 0;
-    padding-right:0;
+    height: calc(430px + 10%);
+    font-size: 85%;
   }
 }
 
-@media all and (max-width: 694px) {
-  .block-2{
-    height: 395px;
-    padding: 7% 5% 5% 5%;
-    font-size: 83%;
-  }
-  .hako-2 h2{
-    margin: 0;
-  }
-  .textarea {
-    padding-left: 0;
-    padding-right:0;
-  }
-}
-@media all and (min-width: 694px){
-  .br-bl2-7 {display: none; }
+@media all and (min-width: 722px){
+  .br-bl2-4 {display: none; }
 }
 
-
-@media all and (max-width: 665px) {
-  .block-2{
-    height: 395px;
-  }
-  .br-bl2-7 {display: none; }
-  .br-bl2-8 {display: none;}
-}
-@media all and (min-width: 666px){
-  .br-bl2-6 {display: none; }
-}
-
-
-@media all and (max-width: 630px) {
-  .block-2{
-    height: 395px;
-  }
-  .br-bl2-6 {display: none; }
-  .br-bl2-9 {display: block; }
-  .br-bl2-8 {display: block; }
-}
-@media all and (min-width: 631px){
+@media all and (min-width: 642px){
   .br-bl2-5 {display: none; }
 }
 
-@media all and (min-width: 627px){
-  .br-bl2-10 {display: none; }
+@media all and (min-width: 587px){
+  .br-bl2-6 {display: none; }
 }
 
-
-@media all and (max-width: 572px) {
+@media all and (max-width: 560px) {
   .block-2{
-    height: 440px;
-    padding: 7% 5% 5% 5%;
     font-size: 80%;
   }
-  .br-bl2-5 {display: none; }
-  .br-bl2-6 {display: none; }
 }
-@media all and (min-width: 573px){
-  .br-bl2-4 {display: none; }
+
+@media all and (min-width: 530px){
+  .br-bl2-7 {display: none; }
 }
 
 @media all and (max-width: 505px) {
   .block-2{
-    height: 460px;
     padding: 9% 5% 5% 5%;
-    margin: 0 auto;
-    font-family: Yu Mincho;
-    font-size: 80%;
-    text-align: center;
   }
 }
 
-@media all and (min-width: 498px){
-  .br-bl2-11 {display: none; }
+@media all and (min-width: 500px){
+  .br-bl2-8 {display: none; }
 }
 
-@media all and (min-width: 453px){
-  .br-bl2-12 {display: none; }
+@media all and (min-width: 455px){
+  .br-bl2-9 {display: none; }
 }
 
 @media all and (max-width: 415px) {
-  .block-2{
-    height: 500px;
-    padding: 7% 5% 5% 5%;
-    margin: 0 auto;
-    font-family: Yu Mincho;
-    font-size: 80%;
-    text-align: center;
-  }
-  .textarea{
-    padding-top: 5%;
-  }
-  .br-bl2-4 {display: none; }
-  .br-bl2-8{display: none;}
-  .br-bl2-9{display: none;}
-  .br-bl2-10{display: none;}
-}
-@media all and (min-width: 416px){
-  .br-bl2-3 {display: none; }
+  .block-2{font-size: 0.7rem;}
 }
 
-@media all and (max-width: 391px) {
-  .block-2{
-    height: 510px;
-    padding: 7vh 5% 5% 5%;
-    margin: 0 auto;
-    font-family: Yu Mincho;
-    font-size: 80%;
-    text-align: center;
-  }
+@media all and (min-width: 365px){
+  .br-bl2-10 {display: none; }
 }
 
-
-@media all and (max-width: 375px) {
-  .block-2{
-    height: 550px;
-    padding: 7vh 5% 5% 5%;
-    margin: 0 auto;
-    font-family: Yu Mincho;
-    text-align: center;
-  }
-  .br-bl2-3 {display: none; }
-  .br-bl2-11{display: none;}
-}
-@media all and (min-width: 376px){
-  .br-bl2-2 {display: none; }
+@media all and (max-width: 325px) {
+  .block-2{font-size: 0.6rem;}
 }
 
-@media all and (max-width: 330px) {
-  .block-2{
-    height: 630px;
-    padding: 7vh 5% 5% 5%;
-    margin: 0 auto;
-    font-family: Yu Mincho;
-    text-align: center;
-  }
-  .br-bl2-2 {display: none; }
-  .br-bl2-12{display: none;}
+@media all and (max-width: 290px) {
+  .block-2{font-size: 0.5rem;}
 }
-@media all and (min-width: 330px){
-  .br-bl2 {display: none; }
-}
-
 /***********************************************************************************/
 
 .block-3{
